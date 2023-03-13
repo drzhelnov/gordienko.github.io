@@ -1,8 +1,10 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -28,3 +30,18 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-readme-index
+  - jekyll-seo-tag
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: false
+optional_front_matter:
+  remove_originals: false
+titles_from_headings:
+  enabled:     false
+  strip_title: false
+  collections: false
