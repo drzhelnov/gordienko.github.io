@@ -1,2 +1,31 @@
 {% include css/bootstrap.min.css %}
 {% include css/grayscale.css %}
+
+/* Credit goes to rhelminen
+   @ https://stackoverflow.com/a/13427256
+   CC BY-SA 4.0 */
+
+.outlined-text {
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+/* End of credit */
+
+blockquote.bq-catchphrase {
+    border: 0;
+}
+
+/* Credit goes to Arber Braja
+   @ https://stackoverflow.com/a/32911561
+   CC BY-SA 3.0 */
+
+blockquote.bq-catchphrase:before {
+    position: absolute;
+    content: open-quote;
+    font-size: 4em;
+    margin-left: -0.6em;
+    margin-top: -0.4em;
+  }
+
+/* End of credit */

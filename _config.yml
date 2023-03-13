@@ -1,31 +1,32 @@
 # Site settings
+title: Олег Гордиенко — Пластический хирург
+url: https://gordienko.github.io
+description: Сертифицированный пластический хирург. Член Российского общества пластических, реконструктивных и эстетических хирургов (РОПРЭХ).
+lang: ru-RU
+
 defaults:
   -
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: default
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
   links: '#219ab3'
+bg-url:
+  intro: https://i.ibb.co/ScrBGGY/intro-bg.jpg
+  downloads: https://i.ibb.co/MSPFtbZ/downloads-bg.jpg
 
 # Footer settings
-footer: Your Website
+footer: Олег Гордиенко
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+  - handler: vk
+    title: ovgordienko
+    url: https://vk.me/ovgordienko
 
 # Build settings
 markdown: kramdown
